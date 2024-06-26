@@ -20,7 +20,7 @@ const TaskItem = ({ todo }) => {
     }
     return (
         <>
-            <div className='list-group_item d-flex justify-content-between align-content-center p-5 '>
+            <div className='list-group_item d-flex justify-content-between align-content-center p-5 gy-5 '>
                 <span>{todo.task}</span>
                 <div>
                     <button className='btn btn-warning btn-sm me-2' onClick={handleEdit}>Edit</button>
